@@ -1,0 +1,34 @@
+
+Como funciona:
+O usuário começa na página `indexinicial.html`. Ao clicar no botão, ele é redirecionado para `index.html`.
+
+*O login e senha fornecidos estão pré-cadastrados no script, portanto, se outro login ou senha for inserido, ocorrerá um erro.
+
+Caso o usuário precise se cadastrar, ele clica no hiperlink de cadastro (`indexcadastro.html`), onde pode se registrar com um login fornecido. 
+Após o cadastro, ele é redirecionado para a página de login (`index.html`). Ao inserir o login e senha corretos, ele é direcionado para a página inicial (`home.html`). 
+
+Se o usuário já souber o login e senha, ele pode acessar diretamente a página `index.html`.
+
+FORMULARIOCADASTRO
+├── Cadastro
+│   ├── csscadastro
+│   │   └── indexcadastro.css
+│   ├── jscadastro
+│   │   └── indexcadastro.js
+│   └── indexcadastro.html
+└── Login
+    ├── css
+    │   └── index.css
+    ├── html
+    │   └── home.html
+    └── js
+        └── index.js
+└── pagInicial
+    ├── CSS
+    │   └── inicial.css
+    ├── JS
+    │   └── jsinicial.js
+    └── indexinicial.html
+└── paglogin
+│   └── index.html
+ 
